@@ -1,0 +1,6 @@
+Analisis Hasil Output
+Citra Asli: Citra yang digunakan sebagai input untuk proses deteksi tepi. Pastikan citra yang digunakan memiliki kontras yang baik agar hasil deteksi tepi optimal.
+
+Citra Tepi (Sobel): Citra ini menunjukkan hasil deteksi tepi menggunakan operator Sobel. Area dengan nilai tinggi menunjukkan adanya tepi, sedangkan area dengan nilai rendah menunjukkan area yang lebih homogen. Anda dapat melihat bahwa tepi objek dalam citra terlihat jelas.
+
+Citra Hasil Segmentasi: Citra ini dihasilkan dari penerapan thresholding pada citra tepi. Nilai threshold yang dipilih akan mempengaruhi hasil segmentasi. Jika threshold terlalu rendah, maka banyak detail yang akan hilang, sedangkan jika terlalu tinggi, maka banyak area yang tidak tersegmentasi. Anda dapat bereksperimen dengan nilai threshold yang berbeda untuk mendapatkan hasil yang diinginkan.
